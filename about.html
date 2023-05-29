@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>BURMA ACADEMY</title>
+    <link rel="icon" href="images/hiclipart.com (4).png"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="navlogo">
+                <img src="images/hiclipart.com (4).png" class="logo">
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" >HOME</a></li>
+                    <li><a href="about.html" >ABOUT US</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html" >BLOG</a></li>
+                    <li><a href="contact.html" >CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>ABOUT US</h1>
+    </section>
+
+    <!--about us content-->
+
+    <section class="about-us">
+        
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the first Burmese language academy in Europe.</h1>
+                <p>Welcome to Burma Academy, the pioneering language institution offering Burmese language courses across Europe. As the first and foremost academy dedicated to teaching Burmese, we are proud to bring the rich cultural heritage and linguistic beauty of Myanmar to the European continent. With a team of highly qualified instructors who are native speakers and language experts, we are committed to providing exceptional language education that fosters fluency, cultural understanding, and personal growth.<br>
+                    <br>
+                    At Burma Academy, we offer three distinct classes based on proficiency: Beginner, Intermediate, and Advanced. Our Beginner Class is designed for those with little to no prior knowledge of Burmese, providing a solid foundation in vocabulary, grammar, and conversational skills. The Intermediate Class builds upon this foundation, expanding vocabulary, grammar knowledge, and communication abilities for more complex interactions. The Advanced Class caters to proficient speakers, delving into advanced grammar structures, idiomatic expressions, and nuanced language usage.<br>
+                    <br>
+                    In addition to our comprehensive language programs, we offer a vibrant learning environment that celebrates Myanmar's rich cultural heritage. Through immersive experiences, cultural events, and engaging activities, we aim to deepen your understanding of Burmese traditions, customs, and history.<br>
+                    <br>
+                    The Burmese language, also known as Myanmar or Burmese-Myanmar, is the official language of Myanmar and spoken by millions of people worldwide. It is a fascinating language with a unique script and a rich literary tradition. By learning Burmese, you gain access to a world of vibrant literature, captivating folklore, and profound cultural insights. Whether you're interested in exploring Myanmar's diverse cultural landscape, connecting with Burmese communities, or expanding your linguistic horizons, Burma Academy is your gateway to the captivating world of the Burmese language.<br>
+                    <br>
+                    Join us at Burma Academy and embark on a transformative language learning journey where cultural immersion, linguistic proficiency, and personal enrichment converge.
+                <br></p>
+                <a href="https://en.wikipedia.org/wiki/Burmese_language" target="_blank" class="visit-box second">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <a href="images/about.jpg" target="_blank">
+                    <img src="images/about.jpg" alt="aboout">
+                  </a>
+                  
+              
+            </div>
+        </div>
+
+    </section>
+
+    <!--footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>The premier language academy dedicated to teaching the rich and vibrant Burmese language across Europe</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by BURMA ACADEMY </p>
+    </section>
+
+    <!--Script for Toggle Menu-->
+    <script>
+        var navLinks =  document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-400px";
+        }
+    </script>
+</body>
+</html>
