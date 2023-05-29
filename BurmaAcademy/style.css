@@ -432,6 +432,7 @@ h3{
     border: 1px solid #f44336;
     background: #f44336;
     transition: 1s;
+    color:white;
 }
 
 /*table design*/
@@ -629,6 +630,7 @@ textarea {
     border: 1px solid #f44336;
     background: #f44336;
     transition: 1s;
+    color:white;
 }
 
   
