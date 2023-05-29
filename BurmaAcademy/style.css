@@ -429,7 +429,9 @@ h3{
 }
 
 .second:hover{
-    color:white;
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
 }
 
 /*table design*/
@@ -565,56 +567,56 @@ p{
     padding: 20px;
     border: none;
     border-radius: 5px;
-  }
+}
   
-  #title {
+#title {
     text-align: center;
     margin-bottom: 20px;
-  }
+}
   
-  .form-container {
+.form-container {
     margin-bottom: 20px;
-  }
+}
   
-  .flex-container {
+.flex-container {
     display: flex;
     justify-content: space-between;
-  }
+}
   
-  .left-container {
+.left-container {
     flex-basis: 50%;
-  }
+}
   
-  .right-container {
+.right-container {
     flex-basis:50%;
-  }
+}
   
-  .block {
+.block {
     display: block;
     margin-bottom: 5px;
-  }
+}
   
-  .field {
+.field {
     width: 80%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
+}
   
-  .input-margin {
+.input-margin {
     margin-right: 5px;
     margin-top: 15px;
-  }
+}
   
-  textarea {
+textarea {
     width: 80%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-  }
+}
   
 .third{
     border: 1px solid #f44336;
@@ -624,7 +626,9 @@ p{
 }
 
 .third:hover{
-    color:white;
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
 }
 
   
